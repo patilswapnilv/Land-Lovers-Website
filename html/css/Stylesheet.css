@@ -1,0 +1,496 @@
+body {
+background:url(../../Images/Website_Background_Resize.png);
+background-repeat:no-repeat;
+background-position-x:center;
+background-position-y:center;
+background-attachment:fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#Preload_Images{
+display: none;
+}
+
+#stage{
+position: relative;
+display: block;
+width:944px;
+height:573;
+margin-top: 8%;
+margin-left: auto;   
+margin-right: auto;
+}	
+
+#Twitter_Content {
+float : right;	
+font-family : Times, serif;
+font-size : 10pt;
+color: #CCCCCC;
+position : absolute; 
+left : 710px; 
+top : 163px;
+width : 150px;
+height : 80px;
+margin : 2px, 5px;
+overflow:hidden;
+}
+
+#Twitter_Content ul{
+display: inline;
+}
+
+#Twitter_Content a{
+color: #339966;
+}
+#Twitter_Content a:hover{
+color: #44AA77;
+}
+
+#News_Content {
+font-family : Trebuchet MS, Times, serif;
+font-size : 10pt;
+color : #000;
+position : absolute; 
+left : 120px; 
+top : 200px;
+width : 585px;
+height : 250px;
+overflow-x: hidden;
+}
+
+ol.tumblr_posts{
+list-style-type : none;
+}
+
+#Biography_Content {
+font-family : Trebuchet MS, Times, serif;
+font-size : 10pt;
+color : #000;
+position : absolute; 
+left : 140px; 
+top : 204px;
+width : 585px;
+height : 250px;
+overflow-x: hidden;
+}
+
+#Gigs_Content{
+float : right;	
+font-family : Trebuchet MS, Times, serif;
+font-size : 10pt;
+color: #CCCCCC;
+position : absolute; 
+left : 622px; 
+top : 330px;
+width : 202px;
+height : 80px;
+overflow:hidden;
+}
+#Gigs_Content li{
+display:inline;
+}
+
+#Gigs_Content a{
+color: #339966;
+}
+#Gigs_Content a:hover{
+color: #44AA77;
+}
+
+#Gigs_Heading {
+position : absolute;
+left : 680px;
+top : 318px;		
+}
+
+
+#biographyHeading{
+position : absolute; 
+left : 350px; 
+top : 155px;
+}
+#discographyHeading{
+position : absolute; 
+left : 370px; 
+top : 160px;
+}
+#musicHeading{
+position : absolute; 
+left : 250px; 
+top : 148px;
+}
+#videoHeading{
+position : absolute; 
+left : 590px; 
+top : 155px;
+}
+#Confidants_Text{
+position : absolute; 
+left : 210px; 
+top : 150px;
+}
+#Immovable_Text{
+position : absolute; 
+left : 175px; 
+top : 150px;
+}
+#Romance_Text{
+position : absolute; 
+left : 165px; 
+top : 150px;}
+
+
+#Romance_Player{
+display:inline;
+position : absolute; 
+left : 175px; 
+top : 210px;
+}
+#Immovable_Player{
+display:inline;
+position : absolute; 
+left : 175px; 
+top : 235px;
+}
+#Confidants_Player{
+display:inline;
+position : absolute; 
+left : 175px; 
+top : 260px;
+}
+#Other_Player{
+display:inline;
+position : absolute; 
+left : 175px; 
+top : 285px;
+}
+
+#Cinema_Player{
+display:inline;
+position : absolute; 
+left : 520px; 
+top : 200px;
+}
+#Far_Away_Player{
+display:inline;
+position : absolute; 
+left : 520px; 
+top : 230px;
+}
+
+#Contact_Text{
+position : absolute; 
+left : 170px; 
+top : 150px;
+}
+#Bookings_Text{
+position : absolute; 
+left : 230px; 
+top : 245px;
+}
+#bookings{
+position : absolute; 
+left : 490px; 
+top : 233px;
+}
+#Info_Text{
+position : absolute; 
+left : 180px; 
+top : 330px;
+}
+#info{
+position : absolute; 
+left : 455px; 
+top : 318px;
+}
+
+#pressPack{
+position : absolute; 
+left : 705px; 
+top : 155px;
+}
+
+#releases {
+list-style-type : none;
+position : absolute; 
+left : 150px; 
+top : 220px;
+width : 700px;
+height : 170px;
+margin : 0;
+padding : 0;
+}
+
+li#Romance {
+width : 230px;	
+}
+
+li#Immovable {
+width : 235px;
+position : relative; top : 8px;
+}
+
+li#Confidants {
+position : relative; top : -5px;	
+}
+
+#Artwork{
+position : absolute; 
+left : 180px; 
+top : 200px;
+}
+
+
+ul#Confidants, ul#Romance{
+list-style-type : none;
+position : absolute; left : 485px; top : 150px;
+font-family : Times, serif;
+font-size : 14pt;
+width : 200px;
+color : #000;
+margin : 0;
+padding : 0;
+}
+ul#Immovable {
+list-style-type : none;
+position : absolute; left : 485px; top : 205px;
+font-family : Times, serif;
+font-size : 14pt;
+width : 200px;
+color : #000;
+margin : 0;
+padding : 0;
+}
+ul#Romance{
+list-style-type : none;
+position : absolute; left : 485px; top : 170px;
+font-family : Times, serif;
+font-size : 14pt;
+width : 200px;
+color : #000;
+margin : 0;
+padding : 0;
+}
+
+
+.Immovable_Track, .Romance_Track, .Confidants_Track {
+line-height : 15px;
+margin-top : 8px;
+width : 200px;
+}
+
+ul#Lyrics_Romance, ul#Lyrics_Confidants {
+list-style-type : none;
+position : absolute; left : 690px; top : 150px;
+font-family : Times, serif;
+font-size : 11pt;
+width : 30px;
+color : #000;
+margin : 0;
+padding : 0;
+}
+ul#Lyrics_Immovable{
+list-style-type : none;
+position : absolute; left : 690px; top : 210px;
+font-family : Times, serif;
+font-size : 11pt;
+width : 30px;
+color : #000;
+margin : 0;
+padding : 0;
+}
+ul#Lyrics_Romance, ul#Lyrics_Confidants {
+list-style-type : none;
+position : absolute; left : 690px; top : 150px;
+font-family : Times, serif;
+font-size : 11pt;
+width : 30px;
+color : #000;
+margin : 0;
+padding : 0;
+}
+
+ul#Lyrics_Immovable {
+line-height : 28px;
+margin-top : -2px;
+}
+ul#Lyrics_Confidants {
+line-height : 26px;
+margin-top : -2px;
+}
+ul#Lyrics_Romance {
+line-height : 23px;
+margin-top : 22px;
+}
+
+#Buy_Confidants{
+display : block;
+height : 8px;
+width : 35px;
+position : absolute; 
+left : 365px; 
+top : 160px;
+margin : 0;
+padding : 0;
+}
+#Buy_Immovable{
+display : block;
+height : 8px;
+width : 35px;
+position : absolute; 
+left : 365px; 
+top : 160px;
+margin : 0;
+padding : 0;
+}
+#Buy_Romance{
+display : block;
+height : 8px;
+width : 35px;
+position : absolute; 
+left : 380px; 
+top : 165px;
+margin : 0;
+padding : 0;
+}
+
+
+ul#menu {
+list-style-type : none;
+position : absolute; 
+left : 380px; 
+top : -80px;
+width : 203px;
+height : 190px;
+margin : 0;
+padding : 0;
+
+
+}
+
+#menu a .icon, #menu a .button_high, #menu a .button_low  {
+display : none;
+}
+
+#menu a:hover .icon {
+display : block;
+position : absolute; 
+left : 150px; 
+top : 0;
+}
+
+#menu a:hover .button_high {
+display : block;	
+position : absolute; 
+top : 0px;
+}
+
+#menu a:hover .button_low {
+display : block;	
+position : absolute; 
+top : 94px;
+}
+
+li#biography {
+float : left;
+width : 103px;
+height : 94px;
+line-height : 0;
+}
+
+li#discography {
+float : right;
+width : 100px;
+height : 94px;
+line-height : 0;
+}
+
+li#media {
+float : left;
+width : 103px;
+height : 96px;	
+}
+
+li#contact {
+float : right;
+width : 100px;
+height : 96px;
+}
+
+
+ul#weblinks {
+list-style-type : none;
+position : absolute; 
+left : 455px; 
+top : 480px;
+width : 800px;
+margin : 0;
+padding : 0;
+}
+
+li {
+float : left;
+}
+
+li#twitter, li#facebook, li#myspace, li#soundcloud {
+position : relative; left : 200px; top : 60px;	
+}
+
+li {
+float : left;
+}
+
+img{
+border:0px;
+}
+
+
+
+h1 img{
+display : block;
+height : 8%;
+width : 35%;
+position : absolute; left : 10px; top : 10px;
+margin : 0;
+padding : 0;
+}
+
+h2 {	
+display : block;
+height : 127px;
+width : 180px;
+position : absolute; 
+left : 800px; 
+top : -50px;
+margin : 0;
+padding : 0;
+}
+
+h3 {
+position : absolute; 
+left : 390px; 
+top : 135px;	
+}
+
+h4 {
+position : absolute; left : 720px; top : 125px;		
+}
+
+h6 {
+position : absolute; 
+left : 870px; 
+top : 525px;
+}
+
+.footer {
+margin-left: 365px;
+width: 16em;
+text-align: center;
+color: #98AFC7;
+font-weight: 400;
+font-size: 1em;
+z-index: -1;
+}

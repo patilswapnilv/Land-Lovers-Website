@@ -1,0 +1,12 @@
+div.Lyrics {
+text-align : center;
+font-family : Times, serif;
+font-size : 12pt;
+color : #000;
+background-color : #ead3a3;
+}
+
+div.Lyrics h1 {
+font-family : Times, serif;
+font-size : 18pt;
+}
